@@ -1,0 +1,109 @@
+@media (min-width: 768px) {
+  .viewport-height {
+    height: calc(var(--vh, 1vh) * 100);
+    height: -webkit-fill-available;
+  }
+}
+
+:root {
+  --primary-color: #263238;
+  --secondary-color: #fff;
+  --accent-color: #ff5722;
+  --text-color: #333;
+  --font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  box-shadow: 0px 0px 20px #ccc;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--accent-color);
+}
+
+.navbar-nav .nav-link {
+  color: var(--primary-color);
+}
+
+.jumbotron {
+  background-image: url('https://picsum.photos/1920/1080');
+  background-size: cover;
+  color: var(--secondary-color);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron h1 {
+  font-size: 4rem;
+}
+
+.jumbotron p {
+  font-size: 1.5rem;
+}
+
+#about {
+  color: #f8f8ff;
+}
+
+#services {
+  color: #f8f8ff;
+}
+
+#services .card-text {
+  color: #000;
+}
+
+#contact {
+  color: #f8f8ff;
+}
+
+.btn-primary {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.btn-primary:hover {
+  background-color: #e64a19;
+  border-color: #e64a19;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.section h2 {
+  font-size: 3rem;
+}
+
+.section p {
+  font-size: 1.25rem;
+}
+
+.section .btn-primary {
+  margin-top: 30px;
+}
+
+footer {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}

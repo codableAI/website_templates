@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Website Title - A brief description</title>
+
+    <!-- Meta Description -->
+    <meta name="description" content="A detailed description of the page. This will often appear in search results.">
+
+    <!-- Open Graph Tags for social media -->
+    <meta property="og:title" content="Website Title - A brief description" />
+    <meta property="og:description" content="A detailed description of the page." />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@publisher_handle">
+    <meta name="twitter:title" content="Website Title - A brief description">
+    <meta name="twitter:description" content="A detailed description of the page.">
+
+    <!-- Link to Bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Bootstrap One-Page Template</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home section -->
+    <section id="home" class="viewport-height">
+      <div class="jumbotron d-flex align-items-center">
+        <div class="container">
+          <h1 class="display-3">Welcome to Bootstrap One-Page Template</h1>
+          <p class="lead">
+            This is a simple one-page Bootstrap template with a custom color scheme.
+          </p>
+          <hr class="my-4" />
+          <p>
+            It uses Bootstrap's pre-built styles and components to create a modern, responsive website.
+          </p>
+          <a class="btn btn-primary btn-lg" href="#about" role="button">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>About Us</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique blandit odio eu
+              sollicitudin. Fusce auctor, ex vel pretium iaculis, odio enim ullamcorper augue, sit amet
+              blandit quam nunc in lectus. Fusce id molestie nibh. Fusce feugiat neque et mi malesuada
+              pharetra. Suspendisse vel lacus commodo, lobortis elit ut, cursus dolor. Donec ut commodo
+              ipsum.
+            </p>
+            <a class="btn btn-primary" href="#services" role="button">Our Services</a>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="https://picsum.photos/600/400"
+              alt="About Us Image"
+              class="img-fluid rounded"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Services section -->
+<section id="services" class="section">
+  <div class="container">
+    <h2>Our Services</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique blandit odio eu
+      sollicitudin. Fusce auctor, ex vel pretium iaculis, odio enim ullamcorper augue, sit amet
+      blandit quam nunc in lectus.
+    </p>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <div class="card-body">
+            <i class="fas fa-laptop fa-3x mb-3"></i>
+            <div class="card-title">Service 1</div>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique blandit
+              odio eu sollicitudin.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <div class="card-body">
+            <i class="fas fa-code fa-3x mb-3"></i>
+            <div class="card-title">Service 2</div>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique blandit
+              odio eu sollicitudin.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <div class="card-body">
+            <i class="fas fa-mobile-alt fa-3x mb-3"></i>
+            <div class="card-title">Service 3</div>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique blandit
+              odio eu sollicitudin.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Contact section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique blandit odio eu
+          sollicitudin. Fusce auctor, ex vel pretium iaculis, odio enim ullamcorper augue, sit amet
+          blandit quam nunc in lectus.
+        </p>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" />
+            <small id="emailHelp" class="form-text text-muted"
+              >We'll never share your email with anyone else.</small
+            >
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Bootstrap One-Page Template</p>
+      </div>
+    </footer>
+
+    <!-- Link to Bootstrap JavaScript -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    ></script>
+  </body>
+</html>
+
